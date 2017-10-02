@@ -20,6 +20,7 @@ The code is written in Swift 4.0 (although needed Pods to compile in Swift 3.2, 
 
 ### Architecture ###
 The code is in **[RIBLER](https://eng.uber.com/new-rider-app/)** architecture introduced by _UBER_ in this [post](https://eng.uber.com/new-rider-app/).
+![picture alt](http://eng.uber.com/wp-content/uploads/2016/12/riblets.png)
 
 RIBLER is actually an adaptation of 
 **[VIPER](https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwjxkP-B_9DWAhUJP48KHU0eDP0QFggtMAI&url=https%3A%2F%2Fwww.objc.io%2Fissues%2F13-architecture%2Fviper%2F&usg=AOvVaw2qUYV6vglF7jK2W3Z0FewL)**, 

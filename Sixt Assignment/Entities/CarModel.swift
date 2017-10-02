@@ -107,16 +107,16 @@ struct CarListViewModel {
         if let txType = car.transmission {
             switch txType {
             case .Manual:
-                txTypeDisplay = "Transmission: Manual"
+                txTypeDisplay = "Drive: Manual"
             case .Automatic:
-                txTypeDisplay = "Transmission: Auto"
+                txTypeDisplay = "Drive: Auto"
             }
         } else {
             txTypeDisplay = ""
         }
         
         if let fuelLevel = car.fuelLevel {
-            self.fuelMeterDisplay = "Fuel Level: \(fuelLevel)"
+            self.fuelMeterDisplay = "Fuel Level: \(fuelLevel * 100) %"
         } else {
             self.fuelMeterDisplay = ""
         }

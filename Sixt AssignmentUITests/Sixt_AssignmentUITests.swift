@@ -2,7 +2,7 @@
 //  Sixt_AssignmentUITests.swift
 //  Sixt AssignmentUITests
 //
-//  Created by Arup Saha on 9/26/17.
+//  Created by Arup Saha on 10/1/17.
 //
 
 import XCTest

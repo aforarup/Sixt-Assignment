@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Sixt Assignment
 //
-//  Created by Arup Saha on 9/26/17.
+//  Created by Arup Saha on 10/1/17.
 //
 
 import UIKit
@@ -11,10 +11,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var appDependency : AppDependencies?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.appDependency = AppDependencies()
+        
+        if window == nil {
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+        }
+        
+        self.appDependency?.configRootView(window: self.window!, forLaunchOptions: launchOptions)
         return true
     }
 
